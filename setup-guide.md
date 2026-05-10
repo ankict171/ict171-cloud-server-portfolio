@@ -19,17 +19,30 @@ This document outlines the setup process for my ICT171 cloud server project host
 
 ## Connecting via SSH
 
-- Used PowerShell to remotely connect to the server
-- Connected using SSH and .pem authentication key
-- Verified successful remote access
+PowerShell was used to remotely connect to the Azure Virtual Machine using SSH authentication and a .pem key.
+
+Example command:
+
+```bash
+ssh -i ANKICT171_key.pem azureuser@4.198.169.49
+```
+
+This provided secure remote access to the Linux server environment and allowed administrative configuration tasks to be completed.
 
 ---
 
 ## Installing Nginx
 
-- Updated Linux packages
-- Installed Nginx web server
-- Verified successful web server deployment
+Linux packages were updated before installing the Nginx web server.
+
+Example commands:
+
+```bash
+sudo apt update
+sudo apt install nginx
+```
+
+After installation, the server was tested through the public IP address to confirm successful deployment of the default Nginx webpage.
 
 ---
 
