@@ -10,7 +10,7 @@ This document contains screenshots demonstrating the implementation and deployme
 
 The screenshot below shows the Microsoft Azure Virtual Machine overview page, including the server status and public IP configuration.
 
-![Azure VM](Azure VM ss.png)
+![Azure VM](azure-vm.png)
 
 ---
 
@@ -26,7 +26,7 @@ The screenshot below demonstrates successful SSH remote access to the Ubuntu Lin
 
 The screenshot below shows the live portfolio website successfully hosted through the Azure Virtual Machine and accessed through the configured domain name.
 
-![Live Website](website ss.png)
+![Live Website](website.png)
 
 ---
 
@@ -34,4 +34,4 @@ The screenshot below shows the live portfolio website successfully hosted throug
 
 The screenshot below demonstrates the DNS configuration used to connect the custom domain name to the Azure Virtual Machine public IP address.
 
-![Cloudflare DNS](cloudfare DNS records.png)
+![Cloudflare DNS](cloudflare-dns.png)
