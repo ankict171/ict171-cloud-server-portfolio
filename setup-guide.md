@@ -42,15 +42,39 @@ sudo apt update
 sudo apt install nginx
 ```
 
-After installation, the server was tested through the public IP address to confirm successful deployment of the default Nginx webpage.
+After installation, the status of the Nginx service was verified using:
+
+```bash
+systemctl status nginx
+```
+
+The server was then tested through the Azure public IP address to confirm successful deployment of the default Nginx webpage.
 
 ---
 
 ## Deploying the Website
 
-- Created custom HTML webpage
-- Uploaded webpage to Nginx directory
-- Tested website using public IP address
+A custom HTML portfolio webpage was created and deployed to the default Nginx web directory.
+
+Example command used to edit the webpage:
+
+```bash
+sudo nano /var/www/html/index.html
+```
+
+The default Nginx webpage was replaced with custom HTML content for the portfolio website.
+
+After editing the webpage, Nginx was restarted using:
+
+```bash
+sudo systemctl restart nginx
+```
+
+The website was then tested using:
+- The Azure public IP address
+- The configured Cloudflare domain
+
+Successful deployment confirmed that the website was publicly accessible through the Internet.
 
 ---
 
