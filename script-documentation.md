@@ -12,19 +12,45 @@ The script performs the following actions:
 
 ---
 
-# Script Purpose
+# Script Code
 
-The purpose of this script is to simplify routine server administration tasks and assist with maintaining the stability and security of the web server environment.
+```bash
+#!/bin/bash
 
-This demonstrates basic scripting and Linux command-line automation skills relevant to server administration and Infrastructure as a Service (IaaS) environments.
+# ICT171 Server Maintenance Script
+# This script updates Linux packages and checks the Nginx service status.
+
+echo "Updating package lists..."
+sudo apt update
+
+echo "Upgrading installed packages..."
+sudo apt upgrade -y
+
+echo "Checking Nginx service status..."
+systemctl status nginx
+
+echo "Maintenance tasks completed."
+```
 
 ---
 
-# Script File
+# Script Explanation
 
-```bash
-maintenance-script.sh
-```
+## `sudo apt update`
+
+Updates the Linux package lists from the configured repositories.
+
+---
+
+## `sudo apt upgrade -y`
+
+Upgrades installed software packages to their latest available versions.
+
+---
+
+## `systemctl status nginx`
+
+Checks whether the Nginx web server service is currently active and functioning correctly.
 
 ---
 
