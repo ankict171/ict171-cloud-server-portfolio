@@ -1,7 +1,7 @@
 # ICT171 Cloud Server Portfolio
 
 **Student ID:** 35748299  
-**Name:** [Aasiyah Naufil Khan]  
+**Name:** Aasiyah Naufil Khan  
 **Server IP:** http://4.198.169.49  
 **Domain:** https://www.ict171project.com/
 
