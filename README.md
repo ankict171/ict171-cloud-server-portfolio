@@ -58,7 +58,10 @@ This project builds on foundational cloud computing concepts and demonstrates th
 
 ## 📹 Video Explainer
 
-(To be added)
+Video walkthrough of the ICT171 cloud server project:
+
+[https://1drv.ms/v/c/94d619dc1a490d25/IQAcet-IcEuASJ_LylI4sfPgAUEyMGu4ISO2wq9RQGW2Rk0?e=JTsA0g]
+
 
 ---
 
